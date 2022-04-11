@@ -61,14 +61,14 @@ const Home: VFC<Props> = ({ fallbackData }) => {
       )}
       <br />
       <br />
-      <div className="flex">
+      {/* <div className="flex">
         <Link href="/api/track/playing">
           <button className="border-b mr-7">NOW PLAYING</button>
         </Link>
         <Link href="/api/track/played">
           <button className="border-b">LAST PLAYED</button>
         </Link>
-      </div>
+      </div> */}
     </Layout>
   )
 }
